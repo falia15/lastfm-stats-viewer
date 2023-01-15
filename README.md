@@ -18,7 +18,7 @@ cp .env.example .env
 Get a lastfm API key at https://www.last.fm/api/account/create and parse it to the .env file
 
 ## Potentiel TODO to try
-- Ask to which last fm user to fetch the data from (instead of just search mine)
+- ~~Ask to which last fm user to fetch the data from (instead of just search mine)~~
 - Display most listen music tag
 - Display most listen artists
 - Link of the Spotify and/or lastfm page of the albums/artists 

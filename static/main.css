@@ -4,6 +4,7 @@ body {
     margin: auto;
     background-color: #2E2E2E;
     color: white;
+    margin-top: 50px;
 }
 
 .block-albums {
@@ -29,8 +30,7 @@ body {
 }
 
 .albums-cover {
-    width: auto;
-    background-color: red;
+    width: 300px;
 }
 
 
@@ -47,4 +47,32 @@ body {
 
 .albums-artist, .albums-playcount {
     font-size: 12px;
+}
+
+
+input {
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.button {
+  background-color: #55aa6c;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #93c9a2;
 }
